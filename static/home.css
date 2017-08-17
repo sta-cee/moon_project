@@ -1,0 +1,60 @@
+#moon-image {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 2
+}
+
+#blank-space {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#space-fact-1 {
+  position: relative;
+  background: rgba(50, 55, 65, .7);
+  height: 140vh;
+  width: 100vw;
+  z-index: 2
+}
+
+#moon-fact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(180, 180, 180, 1);
+  padding: 50vh 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+#moon-cycle-section {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  position: relative;
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}
+
+#space-fact-2 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgba(180, 180, 180, 1);
+  padding: 50vh 0;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#moon-cycle-image {
+  height: auto;
+  width: 50vw;
+  z-index: 2;
+}
